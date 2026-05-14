@@ -1,0 +1,191 @@
+==================================================
+Screen Workflow Teacher launcher started Thu 05/14/2026 11:28:18.78
+Working directory: C:\Users\kylej\Downloads\screen_workflow_teacher_desktop_ui_build
+==================================================
+Using Python command: py -3.12
+Python 3.12.10
+Creating virtual environment with py -3.12.
+Requirement already satisfied: pip in c:\users\kylej\downloads\screen_workflow_teacher_desktop_ui_build\.venv\lib\site-packages (25.0.1)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pip
+  Using cached pip-26.1.1-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.1.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.0.1
+    Uninstalling pip-25.0.1:
+      Successfully uninstalled pip-25.0.1
+Successfully installed pip-26.1.1
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting PySide6>=6.7.0 (from -r requirements-core.txt (line 1))
+  Downloading pyside6-6.11.1-cp310-abi3-win_amd64.whl.metadata (5.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pynput>=1.7.7 (from -r requirements-core.txt (line 2))
+  Downloading pynput-1.8.2-py2.py3-none-any.whl.metadata (32 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyautogui>=0.9.54 (from -r requirements-core.txt (line 3))
+  Using cached PyAutoGUI-0.9.54.tar.gz (61 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting mss>=9.0.1 (from -r requirements-core.txt (line 4))
+  Using cached mss-10.2.0-py3-none-any.whl.metadata (7.2 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting Pillow>=10.3.0 (from -r requirements-core.txt (line 5))
+  Downloading pillow-12.2.0-cp312-cp312-win_amd64.whl.metadata (9.0 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pytesseract>=0.3.10 (from -r requirements-core.txt (line 6))
+  Using cached pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting psutil>=5.9.8 (from -r requirements-core.txt (line 7))
+  Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl.metadata (22 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pywinauto>=0.6.8 (from -r requirements-core.txt (line 8))
+  Using cached pywinauto-0.6.9-py2.py3-none-any.whl.metadata (2.0 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting requests>=2.32.0 (from -r requirements-core.txt (line 9))
+  Downloading requests-2.34.1-py3-none-any.whl.metadata (4.8 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting shiboken6==6.11.1 (from PySide6>=6.7.0->-r requirements-core.txt (line 1))
+  Downloading shiboken6-6.11.1-cp310-abi3-win_amd64.whl.metadata (2.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting PySide6_Essentials==6.11.1 (from PySide6>=6.7.0->-r requirements-core.txt (line 1))
+  Downloading pyside6_essentials-6.11.1-cp310-abi3-win_amd64.whl.metadata (3.8 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting PySide6_Addons==6.11.1 (from PySide6>=6.7.0->-r requirements-core.txt (line 1))
+  Downloading pyside6_addons-6.11.1-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting six (from pynput>=1.7.7->-r requirements-core.txt (line 2))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pymsgbox (from pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached pymsgbox-2.0.1-py3-none-any.whl.metadata (4.4 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pytweening>=1.0.4 (from pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached pytweening-1.2.0.tar.gz (171 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyscreeze>=0.1.21 (from pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached pyscreeze-1.0.1.tar.gz (27 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pygetwindow>=0.0.5 (from pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached PyGetWindow-0.0.9.tar.gz (9.7 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting mouseinfo (from pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached MouseInfo-0.1.3.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting packaging>=21.3 (from pytesseract>=0.3.10->-r requirements-core.txt (line 6))
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting comtypes (from pywinauto>=0.6.8->-r requirements-core.txt (line 8))
+  Using cached comtypes-1.4.16-py3-none-any.whl.metadata (7.8 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pywin32 (from pywinauto>=0.6.8->-r requirements-core.txt (line 8))
+  Downloading pywin32-311-cp312-cp312-win_amd64.whl.metadata (10 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting charset_normalizer<4,>=2 (from requests>=2.32.0->-r requirements-core.txt (line 9))
+  Downloading charset_normalizer-3.4.7-cp312-cp312-win_amd64.whl.metadata (41 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting idna<4,>=2.5 (from requests>=2.32.0->-r requirements-core.txt (line 9))
+  Downloading idna-3.15-py3-none-any.whl.metadata (7.7 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting urllib3<3,>=1.26 (from requests>=2.32.0->-r requirements-core.txt (line 9))
+  Using cached urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting certifi>=2023.5.7 (from requests>=2.32.0->-r requirements-core.txt (line 9))
+  Using cached certifi-2026.4.22-py3-none-any.whl.metadata (2.5 kB)
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyrect (from pygetwindow>=0.0.5->pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached PyRect-0.2.0.tar.gz (17 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+WARNING: Cache entry deserialization failed, entry ignored
+Collecting pyperclip (from mouseinfo->pyautogui>=0.9.54->-r requirements-core.txt (line 3))
+  Using cached pyperclip-1.11.0-py3-none-any.whl.metadata (2.4 kB)
+Downloading pyside6-6.11.1-cp310-abi3-win_amd64.whl (578 kB)
+   ---------------------------------------- 578.4/578.4 kB 19.8 MB/s  0:00:00
+Downloading pyside6_addons-6.11.1-cp310-abi3-win_amd64.whl (168.8 MB)
+   ---------------------------------------- 168.8/168.8 MB 14.6 MB/s  0:00:11
+Downloading pyside6_essentials-6.11.1-cp310-abi3-win_amd64.whl (77.5 MB)
+   ---------------------------------------- 77.5/77.5 MB 20.9 MB/s  0:00:03
+Downloading shiboken6-6.11.1-cp310-abi3-win_amd64.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 20.5 MB/s  0:00:00
+Downloading pynput-1.8.2-py2.py3-none-any.whl (92 kB)
+Using cached mss-10.2.0-py3-none-any.whl (67 kB)
+Downloading pillow-12.2.0-cp312-cp312-win_amd64.whl (7.1 MB)
+   ---------------------------------------- 7.1/7.1 MB 21.9 MB/s  0:00:00
+Using cached pytesseract-0.3.13-py3-none-any.whl (14 kB)
+Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)
+Using cached pywinauto-0.6.9-py2.py3-none-any.whl (363 kB)
+Downloading requests-2.34.1-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.4.7-cp312-cp312-win_amd64.whl (159 kB)
+Downloading idna-3.15-py3-none-any.whl (72 kB)
+Using cached urllib3-2.7.0-py3-none-any.whl (131 kB)
+Using cached certifi-2026.4.22-py3-none-any.whl (135 kB)
+Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Using cached comtypes-1.4.16-py3-none-any.whl (296 kB)
+Using cached pymsgbox-2.0.1-py3-none-any.whl (10.0 kB)
+Using cached pyperclip-1.11.0-py3-none-any.whl (11 kB)
+Downloading pywin32-311-cp312-cp312-win_amd64.whl (9.5 MB)
+   ---------------------------------------- 9.5/9.5 MB 23.7 MB/s  0:00:00
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: pyautogui, pygetwindow, pyscreeze, pytweening, mouseinfo, pyrect
+  Building wheel for pyautogui (pyproject.toml): started
+  Building wheel for pyautogui (pyproject.toml): finished with status 'done'
+  Created wheel for pyautogui: filename=pyautogui-0.9.54-py3-none-any.whl size=37707 sha256=eefa5fc2e0fd3f83202a5975f9f923db61289b7ce9db35fdc5d8223f324361da
+  Stored in directory: c:\users\kylej\appdata\local\pip\cache\wheels\d9\d6\47\04075995b093ecc87c212c9a3dbd34e59456c6fe504d65c3e4
+  Building wheel for pygetwindow (pyproject.toml): started
+  Building wheel for pygetwindow (pyproject.toml): finished with status 'done'
+  Created wheel for pygetwindow: filename=pygetwindow-0.0.9-py3-none-any.whl size=11134 sha256=8828fbb7bdf7fa0707f1a57c195b771dad715290df19b86f93798fdb7bb42631
+  Stored in directory: c:\users\kylej\appdata\local\pip\cache\wheels\b3\39\81\34dd7a2eca5f885f1f6e2796761970daf66a2d98ac1904f5f4
+  Building wheel for pyscreeze (pyproject.toml): started
+  Building wheel for pyscreeze (pyproject.toml): finished with status 'done'
+  Created wheel for pyscreeze: filename=pyscreeze-1.0.1-py3-none-any.whl size=14479 sha256=850d9eb18ba36833ea0aed1f392b7b0e80cedde710c7cd1e8954a7c4fa97df45
+  Stored in directory: c:\users\kylej\appdata\local\pip\cache\wheels\cd\3a\c2\7f2839239a069aa3c9564f6777cbb29d733720ef673f104f0d
+  Building wheel for pytweening (pyproject.toml): started
+  Building wheel for pytweening (pyproject.toml): finished with status 'done'
+  Created wheel for pytweening: filename=pytweening-1.2.0-py3-none-any.whl size=8134 sha256=2757774ea8379ead0fc5b40c9b7ad97c2af412eb97a66491f77aa7eae49195db
+  Stored in directory: c:\users\kylej\appdata\local\pip\cache\wheels\23\d5\13\4e9bdadbfe3c78e47c675e7410c0eed2fbb63c5ea6cf1b40e7
+  Building wheel for mouseinfo (pyproject.toml): started
+  Building wheel for mouseinfo (pyproject.toml): finished with status 'done'
+  Created wheel for mouseinfo: filename=mouseinfo-0.1.3-py3-none-any.whl size=10966 sha256=1d888b2bcb65c74d29714a5d5d7de518cf599273bc955a508dfa7dd81b7c2c34
+  Stored in directory: c:\users\kylej\appdata\local\pip\cache\wheels\b1\9b\f3\08650eb7f00af32f07789f3c6a101e0d7fc762b9891ae843bb
+  Building wheel for pyrect (pyproject.toml): started
+  Building wheel for pyrect (pyproject.toml): finished with status 'done'
+  Created wheel for pyrect: filename=pyrect-0.2.0-py2.py3-none-any.whl size=11304 sha256=3a1a0826b1143647feb5c1e9d751938fc1a7f5c68f8636de36cf0f4276beace7
+  Stored in directory: c:\users\kylej\appdata\local\pip\cache\wheels\0b\1e\d7\0c74bd8f60b39c14d84e307398786002aa7ddc905927cc03c5
+Successfully built pyautogui pygetwindow pyscreeze pytweening mouseinfo pyrect
+Installing collected packages: pywin32, pytweening, pyscreeze, pyrect, pyperclip, urllib3, six, shiboken6, pymsgbox, pygetwindow, psutil, Pillow, packaging, mss, mouseinfo, idna, comtypes, charset_normalizer, certifi, requests, pywinauto, pytesseract, PySide6_Essentials, pynput, pyautogui, PySide6_Addons, PySide6
+
+Successfully installed Pillow-12.2.0 PySide6-6.11.1 PySide6_Addons-6.11.1 PySide6_Essentials-6.11.1 certifi-2026.4.22 charset_normalizer-3.4.7 comtypes-1.4.16 idna-3.15 mouseinfo-0.1.3 mss-10.2.0 packaging-26.2 psutil-7.2.2 pyautogui-0.9.54 pygetwindow-0.0.9 pymsgbox-2.0.1 pynput-1.8.2 pyperclip-1.11.0 pyrect-0.2.0 pyscreeze-1.0.1 pytesseract-0.3.13 pytweening-1.2.0 pywin32-311 pywinauto-0.6.9 requests-2.34.1 shiboken6-6.11.1 six-1.17.0 urllib3-2.7.0
+Launching: python -m overlay_teacher.app

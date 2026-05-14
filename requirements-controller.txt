@@ -1,0 +1,5 @@
+# Optional controller recording/replay dependencies.
+# Note: pygame may not have wheels for the newest Python releases yet.
+# Python 3.11 or 3.12 is recommended for controller support.
+pygame>=2.5.2
+vgamepad>=0.1.0; platform_system == "Windows"

@@ -1,0 +1,4 @@
+-r requirements-core.txt
+-r requirements-optional-windows.txt
+# For Xbox controller support, install separately:
+# pip install -r requirements-controller.txt
