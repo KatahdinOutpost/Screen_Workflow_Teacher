@@ -90,6 +90,16 @@ python -m overlay_teacher.app
 6. Add variable detection for typed values.
 7. Add Playwright integration for browser workflows.
 
+<img width="1444" height="929" alt="image" src="https://github.com/user-attachments/assets/43f514e8-6ab0-4bdd-8450-235b6679a44d" />
+<img width="1434" height="900" alt="image" src="https://github.com/user-attachments/assets/73baed3e-c1f5-4ca6-af7b-99aa4dc4624e" />
+<img width="1441" height="895" alt="image" src="https://github.com/user-attachments/assets/ec0f0d36-0769-4e01-8689-2efe4db7c919" />
+<img width="1440" height="896" alt="image" src="https://github.com/user-attachments/assets/fc21d93c-9543-4565-b19a-b3318db755e6" />
+<img width="1436" height="899" alt="image" src="https://github.com/user-attachments/assets/ea5d0df3-fb16-454c-a469-a5577937b848" />
+<img width="1436" height="896" alt="image" src="https://github.com/user-attachments/assets/532be8a1-a3b6-4c4b-a939-61de3ab374e2" />
+<img width="1437" height="899" alt="image" src="https://github.com/user-attachments/assets/e342917b-bf3d-4247-9e25-d82c8d23552b" />
+<img width="1437" height="894" alt="image" src="https://github.com/user-attachments/assets/961c7dbd-b595-4533-915c-7f4a02bd6ddb" />
+
+
 ## Profile support
 
 This version supports separate profiles for different scenarios or apps.
